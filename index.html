@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title class="iconfont icon-yinlebofangqi-">音乐播放器</title>
+    <title>音乐播放器</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2386020_4vgvzbw8ehy.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_2386020_yfbyuw5sdkh.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png" />
     <script defer src="js/index.js"></script>
 </head>
 
@@ -19,23 +20,29 @@
             <div id="musicContent">
                 <div id="panel">
                     <div id="setBtn">
-                        <div class="btn iconfont icon-yinlebofangye-shangyishou">上一首</div>
-                        <div class="btn iconfont icon-yinlebofangye-bofang">播放</div>
-                        <div class="btn iconfont icon-yinlebofangye-xiayishou">下一首</div>
+                        <div class="btn iconfont icon-yinlebofangye-shangyishou"></div>
+                        <div class="btn iconfont icon-yinlebofangye-bofang"></div>
+                        <div class="btn iconfont icon-yinlebofangye-xiayishou"></div>
                     </div>
                     <div id="info">
-                        <div id="title">龙卷风</div>
-                        <div id="songer">周杰伦</div>
+                        <div id="title"></div>
+                        <div id="songer"></div>
                     </div>
                 </div>
 
                 <div id="progress">
-                    <div id="bar"></div>
-                    <div id="time">02:23</div>
+                    <div id="bar">
+                            <div id="progress-total"></div>
+                            <div id="progress-now"></div>
+                    </div>
+                    <div id="time">
+                        <div id="now">00:00/</div>
+                        <div id="total">00:00</div>
+                    </div>
                 </div>
             </div>
 
-            <div id="musiclist"></div>
+            <ul id="musiclist"></ul>
         </div>
     </div>
 </body>

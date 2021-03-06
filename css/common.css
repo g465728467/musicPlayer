@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: SimHei;
+    color:#8e8e8e;
 }
 html,body{
     height: 100%;
+}
+#setBtn .iconfont{
+    font-size: 20px;
+    color: #1ECC94;
+}
+.btn{
+    flex-grow: 1;
+    text-align: center;
 }

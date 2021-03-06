@@ -1,0 +1,26 @@
+[
+    {
+        "song": "KeepBeingYou",
+        "author": "IsyanaSarasvati",
+        "albumCover": "http://localhost:8080/source/picture/KeepBeingYou.jpg",
+        "url": "http://localhost:8080/source/song/IsyanaSarasvati-KeepBeingYou.mp3"
+    },
+    {
+        "song": "BeyondMemory",
+        "author": "Nina",
+        "albumCover": "http://localhost:8080/source/picture/BeyondMemory.jpg",
+        "url": "http://localhost:8080/source/song/Nina-BeyondMemory.mp3"
+    },
+    {
+        "song": "TheSoundOfSilence",
+        "author": "Simon&Garfunkel",
+        "albumCover": "http://localhost:8080/source/picture/TheSoundOfSilence.jpg",
+        "url": "http://localhost:8080/source/song/Simon&Garfunkel-TheSoundOfSilence.mp3"
+    },
+    {
+        "song": "SomeOtherTime",
+        "author": "GabrielaRobin",
+        "albumCover": "http://localhost:8080/source/picture/SomeOtherTime.jpg",
+        "url": "http://localhost:8080/source/song/SomeOtherTime-GabrielaRobin.mp3"
+    }
+]
